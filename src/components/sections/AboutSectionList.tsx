@@ -14,7 +14,7 @@ const AboutSectionList: React.FC<AboutSectionListProps> = ({ img, title, items, 
     <div>
         <div className="mission flex items-center gap-24 pt-20">
             <div className="w-[600px]">
-                <h3 className="custom-services-h3 !text-3xl pb-3">{title}</h3>
+                <h3 className="custom-h3 !text-3xl pb-3">{title}</h3>
                 <ul className='flex flex-col gap-3'>
                     {items.map((item, index) => {
                         const Icon = icons[index];

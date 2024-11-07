@@ -21,7 +21,7 @@ const Services = () => {
             <div className="service">
                 <div className="flex items-center gap-8">
                     <IoIosArrowDown />
-                    <h3 className="custom-services-h3">Renewable Energy Installation</h3>
+                    <h3 className="custom-h3">Renewable Energy Installation</h3>
                 </div>
 
                 <div className="service-sec">
@@ -50,7 +50,7 @@ const Services = () => {
             <div className="service">
                 <div className="flex items-center gap-8">
                     <IoIosArrowDown />
-                    <h3 className="custom-services-h3">Energy Storage Solutions</h3>
+                    <h3 className="custom-h3">Energy Storage Solutions</h3>
                 </div>
                 <div className="service-sec">
                     <CardServices
@@ -71,7 +71,7 @@ const Services = () => {
             <div className="service">
                 <div className="flex items-center gap-8">
                     <IoIosArrowDown />
-                    <h3 className="custom-services-h3">Energy Audits and Efficiency Consulting</h3>
+                    <h3 className="custom-h3">Energy Audits and Efficiency Consulting</h3>
                 </div>
                 <div className="service-sec">
                     <CardServices
@@ -92,7 +92,7 @@ const Services = () => {
             <div className="service">
                 <div className="flex items-center gap-8">
                     <IoIosArrowDown />
-                    <h3 className="custom-services-h3">Sustainable Building Solutions</h3>
+                    <h3 className="custom-h3">Sustainable Building Solutions</h3>
                 </div>
                 <div className="service-sec">
                     <CardServices

@@ -35,7 +35,7 @@
   @apply text-slate-600 text-3xl font-bold pb-10;
 }
 
-.custom-services-h3{
+.custom-h3{
   @apply text-slate-600 text-2xl font-bold;
 }
 
@@ -45,4 +45,12 @@
 
 .service-sec{
   @apply gap-10 flex items-center;
+}
+
+.clients a:hover .icon{
+  @apply transform transition-all duration-300 hover:scale-125;
+}
+
+.clients a .icon{
+  @apply transform transition-all duration-300 hover:scale-0;
 }

@@ -36,16 +36,16 @@ const AboutUs = () => {
             />
         </div>
 
-        <div className="impact flex items-center bg-zinc-100 h-[300px] text-lg pl-32 pl-32 gap-10">
+        <div className="impact flex items-center bg-zinc-100 h-[300px] text-lg pl-32 gap-10">
             <div className="w-[45%]">
                 <p className="text-3xl font-semibold">Through our <span className="text-[#01cc01] font-bold">renewable energy solutions</span><br />we’re reducing costs and empowering businesses and homes.</p>
                 <p className="pt-2">See the impact we’ve made so far.</p>
             </div>
             <ul className="w-[50%] grid grid-cols-2 gap-4">
-                <li className="flex flex items-center gap-3"><TbBuildingWindTurbine className="text-[#01cc01] text-3xl" /><div className="flex flex-col text-base"><span className="text-3xl font-bold">45,674,430 kWh</span> of Renewable Energy Generated</div></li>
-                <li className="flex flex items-center gap-3"><FaBuildingWheat className="text-[#01cc01] text-3xl" /><div className="flex flex-col text-base"><span className="text-3xl font-bold">32</span> Years of Industry Experience</div></li>
-                <li className="flex flex items-center gap-3">< SlEnergy className="text-[#01cc01] text-3xl"/><div className="flex flex-col text-base"><span className="text-3xl font-bold">92%</span> of Clients Achieved Net-Zero Energy</div></li>
-                <li className="flex flex items-center gap-3"><LiaMoneyBillSolid className="text-[#01cc01] text-3xl" /><div className="flex flex-col text-base"><span className="text-3xl font-bold">$23,457,890</span> Saved Annually on Energy Bills</div></li>
+                <li className="flex items-center gap-3"><TbBuildingWindTurbine className="text-[#01cc01] text-3xl" /><div className="flex flex-col text-base"><span className="text-3xl font-bold">45,674,430 kWh</span> of Renewable Energy Generated</div></li>
+                <li className="flex items-center gap-3"><FaBuildingWheat className="text-[#01cc01] text-3xl" /><div className="flex flex-col text-base"><span className="text-3xl font-bold">32</span> Years of Industry Experience</div></li>
+                <li className="flex items-center gap-3">< SlEnergy className="text-[#01cc01] text-3xl"/><div className="flex flex-col text-base"><span className="text-3xl font-bold">92%</span> of Clients Achieved Net-Zero Energy</div></li>
+                <li className="flex items-center gap-3"><LiaMoneyBillSolid className="text-[#01cc01] text-3xl" /><div className="flex flex-col text-base"><span className="text-3xl font-bold">$23,457,890</span> Saved Annually on Energy Bills</div></li>
 
             </ul>
         </div>

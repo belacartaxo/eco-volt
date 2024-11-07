@@ -17,7 +17,7 @@ const Sustainability = () => {
         </div>
       </div>
       <div className="flex flex-col items-center">
-        <h3 className="font-semibold custom-services-h3 pb-8 pt-8">Our Sustainable Practices Include:</h3>
+        <h3 className="font-semibold custom-h3 pb-8 pt-8">Our Sustainable Practices Include:</h3>
         <ul className="flex gap-14">
             <CardBenefits 
               icon={PiSolarPanel} 
