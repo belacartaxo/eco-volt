@@ -28,7 +28,7 @@ const Clients = () => {
             </ul>
         </div>
 
-        <div className="customer-feedback flex flex-col items-center pt-10 text-slate-600">
+        <div className="customer-feedback flex flex-col items-center pt-10 text-slate-600 pb-20">
             <h3 className="custom-h3">What Our Clients Say</h3>
             <ul className="pt-10 flex gap-10">
                 <CardClient 

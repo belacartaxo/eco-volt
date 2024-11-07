@@ -40,17 +40,21 @@
 }
 
 .service{
-  @apply flex flex-col gap-10 items-center bg-white rounded-md pt-5 p-10;
+  @apply flex flex-col items-center bg-white rounded-md;
 }
 
 .service-sec{
   @apply gap-10 flex items-center;
 }
 
-.clients a:hover .icon{
+.service-sec-title{
+  @apply flex items-center gap-8 justify-center w-[1360px] cursor-pointer pt-5 pb-5;
+}
+
+a:hover .icon{
   @apply transform transition-all duration-300 hover:scale-125;
 }
 
-.clients a .icon{
+a .icon{
   @apply transform transition-all duration-300 hover:scale-0;
 }
