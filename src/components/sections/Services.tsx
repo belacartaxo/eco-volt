@@ -21,7 +21,7 @@ const Services = () => {
             <div className="service">
                 <div className="flex items-center gap-8">
                     <IoIosArrowDown />
-                    <h3 className="custom-services-h3 ">Renewable Energy Installation</h3>
+                    <h3 className="custom-services-h3">Renewable Energy Installation</h3>
                 </div>
 
                 <div className="service-sec">
