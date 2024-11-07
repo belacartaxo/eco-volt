@@ -9,11 +9,49 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
+.green-button a{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #01cc01;
+  background-color: #01cc01;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+.green-button span{
+  position: relative;
+  z-index: 2;
+}
+
+.green-button a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #fff;
+  transition: all .35s;
+}
+
+.green-button a:hover{
+  color: #01cc01;
+}
+
+.green-button a:hover:after{
+  width: 100%;
+}
+
 
 /* No seu arquivo CSS (por exemplo, styles.css) */
-.custom-button {
-  @apply bg-green-600 text-white w-44 h-9 font-semibold;
-}
 
 .custom-h2{
   @apply text-slate-600 text-3xl font-bold pb-10;

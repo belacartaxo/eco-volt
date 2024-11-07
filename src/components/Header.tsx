@@ -1,6 +1,8 @@
+import Button from "./sections/Button"
+
 const Header = () => {
   return (
-    <header className="p-pExt flex justify-between font-semibold ">
+    <header className="p-pExt flex justify-between font-semibold">
       <div className="logo">
         Logo
         <img src="" alt="" />
@@ -13,7 +15,7 @@ const Header = () => {
           <li><a href="">About us</a></li>
           <li><a href="">Clients and Partners</a></li>
         </ul>
-        <button className="custom-button">Request a Quote</button>
+        <Button />
       </nav>
     </header>
   )
