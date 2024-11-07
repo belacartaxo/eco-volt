@@ -9,47 +9,25 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
-.green-button a{
-  display: block;
-  width: 200px;
-  height: 40px;
-  line-height: 40px;
-  font-size: 16px;
-  font-family: sans-serif;
-  text-decoration: none;
-  color: #fff;
-  border: 2px solid #01cc01;
-  background-color: #01cc01;
-  letter-spacing: 2px;
-  text-align: center;
-  position: relative;
-  transition: all .35s;
+.green-button a {
+  @apply flex items-center justify-center w-[200px] h-[40px] leading-[40px] text-[16px] font-sans text-white border-2 border-[#01cc01] bg-[#01cc01] tracking-[2px] relative transition-all duration-300;
 }
 
-.green-button span{
-  position: relative;
-  z-index: 2;
+.green-button span {
+  @apply relative z-10;
 }
 
-.green-button a:after{
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background: #fff;
-  transition: all .35s;
+.green-button a::after {
+  @apply absolute content-[""] top-0 left-0 w-0 h-full bg-white transition-all duration-300;
 }
 
-.green-button a:hover{
-  color: #01cc01;
+.green-button a:hover {
+  @apply text-[#01cc01];
 }
 
-.green-button a:hover:after{
-  width: 100%;
+.green-button a:hover::after {
+  @apply w-full;
 }
-
 
 /* No seu arquivo CSS (por exemplo, styles.css) */
 

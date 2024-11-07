@@ -1,11 +1,11 @@
 import Button from "./sections/Button"
+import logo from "../assets/img/logo.png"
 
 const Header = () => {
   return (
     <header className="p-pExt flex justify-between font-semibold">
       <div className="logo">
-        Logo
-        <img src="" alt="" />
+        <img src={logo} alt="" className="h-10" />
       </div>
       <nav className="flex gap-8 items-center">
         <ul className="flex gap-7">

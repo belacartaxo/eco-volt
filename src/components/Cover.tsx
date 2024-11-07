@@ -3,7 +3,7 @@ import coverImg from "../assets/img/cover-img.png"
 
 const Cover = () => {
   return (
-    <div className='relative cover bg-slate-100 h-[calc(100vh-75px)] flex p-pExt overflow-hidden'>
+    <div className='relative cover bg-green-100 h-[calc(100vh-75px)] flex p-pExt overflow-hidden'>
         <div className="cover-content w-[60%] flex flex-col justify-center">
             {/* TODO - Slider view */}
             <h1 className="text-slate-600 text-4xl font-bold pb-6">Empowering a <span className="text-green-600">Greener Future</span> with Sustainable Energy Solutions.</h1>
