@@ -3,26 +3,39 @@
 @tailwind components;
 @tailwind utilities;
 
-
-:root {
+* {
+  margin: 0;
+  padding: 0;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
-* {
-  margin: 0;
 
+/* No seu arquivo CSS (por exemplo, styles.css) */
+.custom-button {
+  @apply bg-green-600 text-white w-44 h-9 font-semibold;
 }
 
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.custom-h2{
+  @apply text-slate-600 text-3xl font-bold pb-10;
 }
+
+.custom-services-h3{
+  @apply text-slate-600 text-2xl font-bold;
+}
+
+.custom-services-h4{
+  @apply text-slate-600 text-xl font-bold pb-10;
+}
+
+.service{
+  @apply flex flex-col gap-10 items-center;
+}
+
+.service-sec{
+  @apply gap-10 flex items-center;
+}
+
+.service-sec > div{
+  @apply border bg-slate-700;
+}
+
