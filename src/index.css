@@ -39,19 +39,10 @@
   @apply text-slate-600 text-2xl font-bold;
 }
 
-.custom-services-h4{
-  @apply text-slate-600 text-xl font-bold pb-10;
-}
-
 .service{
-  @apply flex flex-col gap-10 items-center;
+  @apply flex flex-col gap-10 items-center bg-white rounded-md pt-5 p-10;
 }
 
 .service-sec{
   @apply gap-10 flex items-center;
 }
-
-.service-sec > div{
-  @apply border bg-slate-700;
-}
-

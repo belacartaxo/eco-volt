@@ -9,9 +9,6 @@ module.exports = {
         'pExt': '20px 50px',
         'pSerCard': '20px 50px',
       },
-      height: {
-        'hImg': '300px',
-      },
     },
   },
   
