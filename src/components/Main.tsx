@@ -9,10 +9,10 @@ const Main = () => {
   return (
     <div>
       <Cover />
-      <Benefits />
-      <Services />
-      <Sustainability />
       <AboutUs />
+      <Benefits />
+      <Sustainability />
+      <Services />
       <Clients />
     </div>
   )

@@ -9,10 +9,10 @@ const Header = () => {
       </div>
       <nav className="flex gap-8 items-center">
         <ul className="flex gap-7">
-          <li><a href="">Benefits</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Sustainability</a></li>
           <li><a href="">About us</a></li>
+          <li><a href="">Benefits</a></li>
+          <li><a href="">Sustainability</a></li>
+          <li><a href="">Services</a></li>
           <li><a href="">Clients and Partners</a></li>
         </ul>
         <Button />

@@ -6,7 +6,7 @@ import CardBenefits from "../cards/CardBenefits";
 
 const Benefits = () => {
   return (
-    <div className="benefits flex flex-col items-center p-pEx pt-20 pb-28">
+    <div className="benefits flex flex-col items-center p-pEx pt-20 pb-28 bg-zinc-100">
         <h2 className="custom-h2">Key Benefits of Choosing Eco Volt</h2>
         <ul className="flex gap-16">
             <CardBenefits 
